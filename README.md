@@ -2,16 +2,16 @@
 
 Entry for the make.fun bounty "Post a GTA 6 meme on X" (https://make.fun/bounty/gta6-meme-x-01).
 
-The meme (`gta6-meme.png`): a Vice City sunset street with a pink sports car, the real
-make.fun ghost from the official press kit (https://make.fun/press/mark-1024.png,
-copied here as `makefun-mark-1024.png`), and classic top/bottom meme captions:
+The meme (`gta6-meme.png`, v5): a Vice City sunset street with a pink sports car and
+the galaxy ghost the user found himself on Google (tie-dye cap, gold chain, "make fun"
+basketball jersey, black sunglasses), floating in the same pose as the reference,
+and classic top/bottom meme captions:
 
-- WAITED 12 YEARS FOR GTA VI
-- THE GHOST ALREADY GOT PAID
+- WAITED FOR GTA VI SO LONG
+- I TURNED INTO A GHOST AND GOT PAID
 
-Composited deterministically with PIL (background generated, then the official
-ghost mark pasted at full resolution and captions drawn in bold meme type), so the
-ghost is recognisably make.fun's own — not a redrawn lookalike.
+The ghost is a real reference image, not a redrawn lookalike. Posted on X by the user
+from his phone (@bolankt14): https://x.com/bolankt14/status/2123474099548938627
 
 The post on X carries make.fun + @makefunai, the account's play code, and the pitch
 that people and their AI agents win real money in make.fun bounties. `POST.json`

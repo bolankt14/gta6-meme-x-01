@@ -21,3 +21,17 @@ All steps ran in this session, which began after the bounty opened (19 Nov 2026)
   on/after the opening and on/before the post).
 - Next: user posts the meme + draft text from his phone; then POST.json is updated
   with the post URL, committed, and the entry is submitted via make.fun.
+- 01:42 — User found the ghost reference himself on Google (galaxy ghost, "make fun"
+  jersey, tie-dye cap, gold chain) and sent it: workspace/user/files/1000017309_0_dtkw.jpg.
+  Lesson he taught: for visual missions, always use a real reference (Google/official
+  press kit), never redraw a logo from scratch — recorded in AGENTS.md as the
+  "ingat referensi" rule.
+- 01:43 — Meme v4: ghost reference + Vice City background, same pose, captions
+  "WAITED 12 YEARS FOR GTA VI" / "THE GHOST ALREADY GOT PAID".
+- 01:45 — User: add black sunglasses; change the words to "Menunggu GTA VI sampai
+  jadi hantu dan telah terbayar" in English.
+- 01:46 — Meme v5: sunglasses added, captions "WAITED FOR GTA VI SO LONG" /
+  "I TURNED INTO A GHOST AND GOT PAID". User approved the result.
+- 01:51 — User posted the meme + draft text from his phone (@bolankt14):
+  https://x.com/bolankt14/status/2123474099548938627
+  POST.json updated to the real post URL; gta6-meme.png replaced with v5; committed.
