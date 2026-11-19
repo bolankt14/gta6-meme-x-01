@@ -1,37 +1,64 @@
-# Session transcript — gta6-meme-x-01 (agent Hanna, 20 Nov 2026 WITA)
+# Build transcript: gta6-meme-x-01
 
-This file records the agent session that made the meme and wrote this repository.
-All steps ran in this session, which began after the bounty opened (19 Nov 2026).
+Written by the agent (Hanna) in this session, 20 Nov 2026 WITA. This
+session started after the bounty opened, so every step below happened
+inside the competition window.
 
-- 01:23 — Read the bounty page https://make.fun/bounty/gta6-meme-x-01 (browser):
-  confirmed X post is mandatory, $500 / 50 places, deadline Mon 23 Nov 22:00 WITA.
-- 01:24 — Got the account's play codes via GET /api/competitions/gta6-meme-x-01/play-code
-  with the @eager-stork-81 API key: code 0 makefun-redwood-lamb-axle (used in the post).
-- 01:26 — Generated meme v1 (AI image, ghost redrawn). User rejected it: the ghost was
-  a generic lookalike, not make.fun's ghost, and the picture looked bot-made.
-- 01:30 — Downloaded the official press kit: https://make.fun/press/mark-1024.png
-  (the real ghost mark) and wordmark.svg. Verified the mark by viewing it.
-- 01:30 — Generated a clean background (Vice City street + pink car, no character, no text).
-- 01:31 — Composited v2 with PIL (Pillow 10.2.0): background + official mark pasted at
-  588px + bold meme captions (Liberation Sans Bold, white with black stroke).
-  Saved as gta6-meme-v2.png (1920x1280), copied here as gta6-meme.png.
-- 01:32 — Created this repository from the bounty starter kit (main.ts, POST.json,
-  LICENSE unchanged from the kit), added README.md, the meme, the press-kit mark,
-  and this transcript. First commit before the X post (per the rules: first commit
-  on/after the opening and on/before the post).
-- Next: user posts the meme + draft text from his phone; then POST.json is updated
-  with the post URL, committed, and the entry is submitted via make.fun.
-- 01:42 — User found the ghost reference himself on Google (galaxy ghost, "make fun"
-  jersey, tie-dye cap, gold chain) and sent it: workspace/user/files/1000017309_0_dtkw.jpg.
-  Lesson he taught: for visual missions, always use a real reference (Google/official
-  press kit), never redraw a logo from scratch — recorded in AGENTS.md as the
-  "ingat referensi" rule.
-- 01:43 — Meme v4: ghost reference + Vice City background, same pose, captions
+## The bounty
+
+- **gta6-meme-x-01: "Post a GTA 6 meme on X"**
+  (https://make.fun/bounty/gta6-meme-x-01)
+- Opened 19 Nov 2026 22:00 WITA; deadline Mon 23 Nov 2026 22:00 WITA.
+- Prize $500 across 50 places; the entry is a public X post, read by the
+  house. The post must show make.fun's ghost, logo, or name, carry a play
+  code, and pitch that people and their AI agents earn money on make.fun.
+
+## How the meme was built
+
+- **v1: AI-generated ghost.** Made with an image generator: a ghost
+  redrawn from scratch on a Vice City background. The user rejected it:
+  it looked bot-made, a generic ghost, not make.fun's ghost.
+- **v2: official ghost, PIL composite.** The official ghost mark was
+  taken from the make.fun press kit (https://make.fun/press/mark-1024.png)
+  and pasted onto a clean AI-generated Vice City background (pink sports
+  car, no character, no text) with Pillow. Captions:
   "WAITED 12 YEARS FOR GTA VI" / "THE GHOST ALREADY GOT PAID".
-- 01:45 — User: add black sunglasses; change the words to "Menunggu GTA VI sampai
-  jadi hantu dan telah terbayar" in English.
-- 01:46 — Meme v5: sunglasses added, captions "WAITED FOR GTA VI SO LONG" /
-  "I TURNED INTO A GHOST AND GOT PAID". User approved the result.
-- 01:51 — User posted the meme + draft text from his phone (@bolankt14):
-  https://x.com/bolankt14/status/2123474099548938627
-  POST.json updated to the real post URL; gta6-meme.png replaced with v5; committed.
+  The user liked it but said it was too stiff.
+- **v3: the agent's own avatar in the scene.** The user asked to swap
+  the ghost for the agent's current avatar. The avatar (an anime woman in
+  a blue leather jacket) was placed in the scene, sitting casually on the
+  pink car's hood. Caption changed to "HANNA ALREADY GOT PAID".
+- **v4: the ghost the user found himself.** The user searched Google
+  himself and sent the reference: a galaxy ghost in a "make fun"
+  basketball jersey, tie-dye cap, and gold chain with a basketball
+  pendant. He showed how to find a real reference instead of inventing
+  one. v4 put that ghost into the Vice City background, same pose as the
+  reference. Captions back to "WAITED 12 YEARS FOR GTA VI" /
+  "THE GHOST ALREADY GOT PAID".
+- **v5: sunglasses + new words (final).** The user asked for black
+  sunglasses on the ghost and new captions: his Indonesian words were
+  "Menunggu GTA VI sampai jadi hantu dan telah terbayar", in English:
+  "WAITED FOR GTA VI SO LONG" / "I TURNED INTO A GHOST AND GOT PAID".
+
+## The post
+
+The user posted v5 from his phone (@bolankt14) on 20 Nov 2026, 01:50 WITA:
+
+https://x.com/bolankt14/status/2123474099548938627
+
+But in that first post the play code lost its hyphens, so it read
+"makefun redwood lamb axle" instead of "makefun-redwood-lamb-axle". So
+the user reposted it with the correct hyphenated play code, ~01:57 WITA:
+
+https://x.com/bolankt14/status/2123475977431073172
+
+The old post was not deleted; only this repost is the entry, and POST.json
+names it.
+
+Play code for @eager-stork-81: `makefun-redwood-lamb-axle`.
+
+## This repository
+
+Created from the bounty starter kit (main.ts, POST.json, LICENSE).
+`gta6-meme.png` is the final meme (v5). This transcript, README.md,
+POST.json, and main.ts were written by the agent in this session.
