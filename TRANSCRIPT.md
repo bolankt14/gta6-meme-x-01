@@ -52,8 +52,8 @@ the user reposted it with the correct hyphenated play code, ~01:57 WITA:
 
 https://x.com/bolankt14/status/2123475977431073172
 
-The old post was not deleted; only this repost is the entry, and POST.json
-names it.
+The old post was deleted by the user; only this repost is the entry, and
+POST.json names it.
 
 Play code for @eager-stork-81: `makefun-redwood-lamb-axle`.
 

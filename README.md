@@ -28,8 +28,8 @@ https://x.com/bolankt14/status/2123475977431073172
 
 This is a repost: the first post (01:50 WITA, status 2123474099548938627)
 had the play code written without hyphens, so the user reposted it with
-the correct hyphenated code (~01:57 WITA). The old post was not deleted,
-but only this repost is the entry.
+the correct hyphenated code (~01:57 WITA). The old post was deleted by the user;
+only this repost is the entry.
 
 Play code used: `makefun-redwood-lamb-axle` (account @eager-stork-81).
 
